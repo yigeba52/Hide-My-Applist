@@ -19,7 +19,7 @@ if (officialBuild) {
 }
 
 android {
-    namespace = "com.tsng.hidemyapplist"
+    namespace = "com.tsng.hideapplist"
 
     buildFeatures {
         buildConfig = true
