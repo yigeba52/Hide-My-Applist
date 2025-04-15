@@ -21,10 +21,10 @@ if (officialBuild) {
 val appPackageName: String by rootProject.extra
 
 android {
-    namespace = appPackageName
+    namespace = "com.tsng.hidemyapplist"
 
     defaultConfig {
-        applicationId = "com.tsng.hideapplist"
+        applicationId = appPackageName
     }
 
     buildFeatures {
